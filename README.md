@@ -18,3 +18,7 @@ Your goals for this challenge:
 - Run the "docker build ." command to execute the Docker file in your AWS server.
 - Once Dockerfile is executed completely then go to server and check your nginx is runing fine or not. (use `Netstat -nltp | grep LISTEN | grep 80` command to check nginx exposing on 80 port).
 - Try to open in browser using IP address of server (if you map IP with Elastic IP / public domain in Route 53 then try to open DNS on browser).
+
+**Solution 3** :
+- For CI/CD pipeline, we need to run github for CI and Jenkins for CD
+-  
