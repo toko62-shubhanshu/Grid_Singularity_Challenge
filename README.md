@@ -20,5 +20,7 @@ Your goals for this challenge:
 - Try to open in browser using IP address of server (if you map IP with Elastic IP / public domain in Route 53 then try to open DNS on browser).
 
 **Solution 3** :
-- For CI/CD pipeline, we need to run github for CI and Jenkins for CD
--  
+
+- For CI/CD pipeline, we need to run github for CI and Jenkins for CD.
+- CI is like we use github (pull request builder) plugin in jenkin which help us to clone the repository of master branch automatically when some new pr is created.
+-  In Jenkin Pipeline script we define the Docker build , Docker Push and Deploy Image Stage which performing CD role ( `Grid_Singularity_Challenge/Jenkinsfile` ).
