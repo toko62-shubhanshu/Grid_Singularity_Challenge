@@ -9,7 +9,7 @@ Your goals for this challenge:
 
 - Installation / Setup of Terraform in your local : https://learn.hashicorp.com/tutorials/terraform/install-cli .
 -  After fully configuration (terraform init : https://learn.hashicorp.com/tutorials/terraform/aws-build?in=terraform/aws-get-started) of terraform in your system, you need to go to this location `terraform/`.
--  Once your file is created there you need to run `terraform apply` so it make your server up using defined config in `terraform/docker-vm.tf` file.
+-  Once your file is created there you need to run `terraform plan` & `terraform apply` so it make your server up using defined config in `terraform/docker-vm.tf` file.
 -  It make your server up and running state or you verified on AWS console of EC2.
 
 **Solution 2** :
