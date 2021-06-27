@@ -5,14 +5,14 @@ Your goals for this challenge:
 - Create a Dockerfile of a nginx container.
 - Create a CI/CD pipeline using Travis/Github Actions/Jenkins to build and deploy the container in the Linux VM.
 
-**Solution 1 **: 
+**Solution 1**: 
 
 - Installation / Setup of Terraform in your local : https://learn.hashicorp.com/tutorials/terraform/install-cli .
 -  After fully configuration (terraform init : https://learn.hashicorp.com/tutorials/terraform/aws-build?in=terraform/aws-get-started) of terraform in your system, you need to go to this location `terraform/`.
 -  Once your file is created there you need to run `terraform apply` so it make your server up using defined config in `terraform/docker-vm.tf` file.
 -  It make your server up and running state or you verified on AWS console of EC2.
 
-**Solution 2 ** :
+**Solution 2** :
 
 - Dockerfile file is created and push in path : `Grid_Singularity_Challenge/Dockerfile`
 - Run the "docker build ." command to execute the Docker file in your AWS server.
